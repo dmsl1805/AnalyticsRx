@@ -21,16 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Dmytro Shulzhenko/DMSLAnalyticsRx'
+  s.homepage         = 'https://github.com/dmsl1805/DMSLAnalyticsRx'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dmytro Shulzhenko' => 'dmytro.shulzhenko@gen.tech' }
-  s.source           = { :git => 'https://github.com/Dmytro Shulzhenko/DMSLAnalyticsRx.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dmsl1805/DMSLAnalyticsRx.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
   s.source_files = 'DMSLAnalyticsRx/Classes/**/*'
+  
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
+
+  s.dependency 'DMSLAnalyticsCore'
+  s.dependency 'RxSwift'
+  s.dependency 'RxViewController'
   
   # s.resource_bundles = {
   #   'DMSLAnalyticsRx' => ['DMSLAnalyticsRx/Assets/*.png']

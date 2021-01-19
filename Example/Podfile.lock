@@ -1,0 +1,46 @@
+PODS:
+  - DMSLAnalyticsCore (0.1.1):
+    - Tagged
+  - DMSLAnalyticsRx (0.1.0):
+    - DMSLAnalyticsCore
+    - RxSwift
+    - RxViewController
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxViewController (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - Tagged (0.5.0)
+
+DEPENDENCIES:
+  - DMSLAnalyticsRx (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DMSLAnalyticsCore
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxViewController
+    - Tagged
+
+EXTERNAL SOURCES:
+  DMSLAnalyticsRx:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMSLAnalyticsCore: e722a072dc3174099526394cf24067960c0a0e62
+  DMSLAnalyticsRx: cd9259c323b9be822c2f384c9fbe2caed38930dd
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxViewController: 7330a46e5c31cd680db169da4c9fc8676e975a81
+  Tagged: 8d3ac5d5c6dfbc35ec95c1ad45a0f7c79d0fdd27
+
+PODFILE CHECKSUM: 27a77c7c9c5867eceaa32dfea083038f26734534
+
+COCOAPODS: 1.9.3
