@@ -41,7 +41,7 @@
 		16C42DAD855DF41BFDCF7F4075A31E1F /* NSButton+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F3994A14033953A5EDB73A7326C03F /* NSButton+Rx.swift */; };
 		16D109D76CB5EEE750B3C321B0AA4321 /* SchedulerType+SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CBF6B89E1E45A8D34C97A8CFEE51C /* SchedulerType+SharedSequence.swift */; };
 		197E85E7C95937D7728D9BA74DE04C48 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038363F32E0FAFE624BF9F6CD28D1ACC /* Map.swift */; };
-		1A82C17A25B6CEE4004F78FC /* UIViewController+bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82C17925B6CEE4004F78FC /* UIViewController+bind.swift */; };
+		1A82C34925B6F018004F78FC /* UIViewController+bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82C34825B6F018004F78FC /* UIViewController+bind.swift */; };
 		1A88372C36504752670AC184B9BEE0D3 /* UIActivityIndicatorView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29A87897FBC99C01B2AD11731DD8E3 /* UIActivityIndicatorView+Rx.swift */; };
 		1B4329F98D145B9D8A0E2A97243CCA86 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869ECC9F13F185306642068B7CE26F8D /* Concat.swift */; };
 		1C993D4AEEE96EB6FD1A5CF910BF12CC /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F415050A0D83A701F63EF1FC9F98A3 /* Deprecated.swift */; };
@@ -492,7 +492,7 @@
 		18AFBD47B144B692AE14C067D6697074 /* DispatchQueueConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueConfiguration.swift; path = RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift; sourceTree = "<group>"; };
 		18D6AAEA2A9FFC644F41F2B6F23ED043 /* DMSLAnalyticsRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMSLAnalyticsRx.debug.xcconfig; sourceTree = "<group>"; };
 		19F10E1A5EBB98DEDC225CBDCC9158DA /* RxViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxViewController-prefix.pch"; sourceTree = "<group>"; };
-		1A82C17925B6CEE4004F78FC /* UIViewController+bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+bind.swift"; sourceTree = "<group>"; };
+		1A82C34825B6F018004F78FC /* UIViewController+bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+bind.swift"; path = "DMSLAnalyticsRx/Classes/UIViewController+bind.swift"; sourceTree = "<group>"; };
 		1AA8D933E1572F6BD20115CE677F1C23 /* RxTabBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarDelegateProxy.swift; sourceTree = "<group>"; };
 		1AD9A38A5AE2A7AFF501EAD47AF3AFA4 /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
 		1B3F48AFE77F17AC7E8D306DCCD49C19 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Rx.swift"; path = "RxCocoa/iOS/UIViewController+Rx.swift"; sourceTree = "<group>"; };
@@ -1412,7 +1412,7 @@
 		D174E4AEE676107B62ACCC03B4261B1A /* DMSLAnalyticsRx */ = {
 			isa = PBXGroup;
 			children = (
-				1A82C17925B6CEE4004F78FC /* UIViewController+bind.swift */,
+				1A82C34825B6F018004F78FC /* UIViewController+bind.swift */,
 				4DF02C63931CC59B049F26129E67C5FA /* Pod */,
 				C5E72C94F541A8DE3EDFB7F52ACB6292 /* Support Files */,
 			);
@@ -1784,7 +1784,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A243B777970F53B2FD958F71828E01 /* DMSLAnalyticsRx-dummy.m in Sources */,
-				1A82C17A25B6CEE4004F78FC /* UIViewController+bind.swift in Sources */,
+				1A82C34925B6F018004F78FC /* UIViewController+bind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
